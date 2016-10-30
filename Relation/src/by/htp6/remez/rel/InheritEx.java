@@ -12,28 +12,7 @@ public class InheritEx {
 			
 	}
 	
-	/*public static void meth(Man man){
-		
-		Doctor doc;
-		if (man.getClass() == Doctor.class){
-			doc = (Doctor)man;
-			System.out.println("doctor");
-		}
-		else
-		if(man.getClass() == HeadDoctor.class){
-			doc = (Doctor)man;
-			System.out.println("HeadDoctor");
-		}
-	}
-		
-		public static void meth2(Man man){
-			
-			Doctor doc;
-			if (man instanceof Doctor){
-				doc = (Doctor)man;
-				System.out.println("doctor");
-			}
-	}*/
+
 
 }
 class Man{
