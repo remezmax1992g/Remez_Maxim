@@ -30,7 +30,7 @@ public class HexademicalNumber {
 	}
 	
 	public void print(List<String> list){
-		System.out.println("Все найденные числа в тексте записанные в шестиричной системе счисления");
+		System.out.println("All numbers was founded in this text in 16th system of calculation");
 		for (int i = 0; i < list.size(); i++){
 			
 		System.out.println(list.get(i));

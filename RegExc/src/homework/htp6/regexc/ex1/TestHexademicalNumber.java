@@ -12,7 +12,7 @@ public class TestHexademicalNumber {
 	public static void main(String[] args) throws IOException {
 		HexademicalNumber h = new HexademicalNumber();
 		String regexc = h.getRegexc();
-		System.out.println("¬ведите текст дл€ поиска");
+		System.out.println("enter text");
 		BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
 		String text = r.readLine();
 		Pattern p = Pattern.compile(regexc);
